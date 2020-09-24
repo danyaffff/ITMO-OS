@@ -1,4 +1,4 @@
-# ITMO-OS
+# ITMO OS
 ## Third semester
 ###### Language: Shell
 1. The basics of using the Linux console interface and bash interpreter.
