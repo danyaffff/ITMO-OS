@@ -1,5 +1,5 @@
 # ITMO-OS
-## Synopsis
+## Third semester
 ###### Language: Shell
 1. The basics of using the Linux console interface and bash interpreter.
 - [1.sh](https://github.com/danyaffff/ITMO-OS/blob/master/Sem%203%2C%20Lab%201/1.sh)
