@@ -17,4 +17,3 @@ for proc in $(ps ax -o pid); do
     echo "ProcessID=$pid : Parent_ProcessID=$ppid : Averange_Running_Time=$art"
 done |
     sort --key=2 -V > out4.txt
-    
