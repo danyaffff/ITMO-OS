@@ -13,4 +13,13 @@
 - [9.sh](https://github.com/danyaffff/ITMO-OS/blob/master/Sem%203%2C%20Lab%201/9.sh)
 - [10.sh](https://github.com/danyaffff/ITMO-OS/blob/master/Sem%203%2C%20Lab%201/10.sh)
 
-[Task](https://drive.google.com/drive/folders/1wgx3Y3Rx9KtK-Yoeun9vSh-GfVFlxUnW)
+2. Monitoring processes and resources in Linux
+- [1.sh](https://github.com/danyaffff/ITMO-OS/blob/master/Sem%203%2C%20Lab%202/1.sh)
+- [2.sh](https://github.com/danyaffff/ITMO-OS/blob/master/Sem%203%2C%20Lab%202/2.sh)
+- [3.sh](https://github.com/danyaffff/ITMO-OS/blob/master/Sem%203%2C%20Lab%202/3.sh)
+- [4.sh](https://github.com/danyaffff/ITMO-OS/blob/master/Sem%203%2C%20Lab%202/4.sh)
+- [5.sh](https://github.com/danyaffff/ITMO-OS/blob/master/Sem%203%2C%20Lab%202/5.sh)
+- [6.sh](https://github.com/danyaffff/ITMO-OS/blob/master/Sem%203%2C%20Lab%202/6.sh)
+- [7.sh](https://github.com/danyaffff/ITMO-OS/blob/master/Sem%203%2C%20Lab%202/7.sh)
+
+[Tasks](https://drive.google.com/drive/folders/1wgx3Y3Rx9KtK-Yoeun9vSh-GfVFlxUnW)
