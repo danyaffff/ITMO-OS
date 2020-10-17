@@ -5,8 +5,6 @@ counter=0
 while read line ; do
     ppid=$(echo $line | cut -d ":" -f 2 | awk -F "=" '{print $2}')
     art=$(echo $line | cut -d ":" -f 3 | awk -F "=" '{print $2}')
-	#echo $ppid
-	#echo $previous_ppid
 
 	if [[ $previous_ppid != -1 && $ppid != $previous_ppid ]]; then
 		echo Average_Running_Children_of_ParentID=$previous_ppid is $(echo "scale=2; x=$total_art / $counter; if(x<1&&x!=0) print 0; x" | bc)
