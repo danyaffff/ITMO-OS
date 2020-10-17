@@ -3,7 +3,7 @@ search() {
 }
 
 search temp1
-sleep 10
+sleep 60
 search temp2
 
 touch temp3
