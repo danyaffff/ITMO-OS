@@ -22,4 +22,12 @@
 - [6.sh](https://github.com/danyaffff/ITMO-OS/blob/master/Sem%203%2C%20Lab%202/6.sh)
 - [7.sh](https://github.com/danyaffff/ITMO-OS/blob/master/Sem%203%2C%20Lab%202/7.sh)
 
+3. Linux process control
+- [1.sh](https://github.com/danyaffff/ITMO-OS/blob/master/Sem%203%2C%20Lab%203/1.sh)
+- [2.sh](https://github.com/danyaffff/ITMO-OS/blob/master/Sem%203%2C%20Lab%203/2.sh)
+- [3.sh](https://github.com/danyaffff/ITMO-OS/blob/master/Sem%203%2C%20Lab%203/3.sh)
+- [4](https://github.com/danyaffff/ITMO-OS/tree/master/Sem%203%2C%20Lab%203/4)
+- [5](https://github.com/danyaffff/ITMO-OS/tree/master/Sem%203%2C%20Lab%203/5)
+- [6](https://github.com/danyaffff/ITMO-OS/tree/master/Sem%203%2C%20Lab%203/6)
+
 [Tasks](https://drive.google.com/drive/folders/1wgx3Y3Rx9KtK-Yoeun9vSh-GfVFlxUnW)
