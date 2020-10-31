@@ -1,13 +1,13 @@
 result=1
 operation="+"
 
-(tail -f channel) |
+( tail -f channel & echo $! >&3 ) 3>pid |
 while true; do
     read line;
     case $line in
         QUIT)
             echo Я тоже
-            killall tail
+            kill $(<pid)
             exit 0
         ;;
         "+")
@@ -28,7 +28,7 @@ while true; do
             echo $result
         ;;
         *)
-            killall tail
+            kill $(<pid)
             exit 1
         ;;
     esac
