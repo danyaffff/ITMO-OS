@@ -30,4 +30,10 @@
 - [5](https://github.com/danyaffff/ITMO-OS/tree/master/Sem%203%2C%20Lab%203/5)
 - [6](https://github.com/danyaffff/ITMO-OS/tree/master/Sem%203%2C%20Lab%203/6)
 
+4. Working with the file-catalog system in Linux OS
+- [rmtrash.sh](https://github.com/danyaffff/ITMO-OS/blob/master/Sem%203%2C%20Lab%204/rmtrash.sh)
+- [untrash.sh](https://github.com/danyaffff/ITMO-OS/blob/master/Sem%203%2C%20Lab%204/untrash.sh)
+- [backup.sh](https://github.com/danyaffff/ITMO-OS/blob/master/Sem%203%2C%20Lab%204/backup.sh)
+- [upback.sh](https://github.com/danyaffff/ITMO-OS/blob/master/Sem%203%2C%20Lab%204/upback.sh)
+
 [Tasks](https://drive.google.com/drive/folders/1wgx3Y3Rx9KtK-Yoeun9vSh-GfVFlxUnW)
