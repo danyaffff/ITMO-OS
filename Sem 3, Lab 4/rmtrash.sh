@@ -3,6 +3,10 @@ trashlog=~/.trash.log
 filename=$1
 version=0
 
+if [ $# != 1 ]; then
+    exit 1
+fi
+
 if [ ! -d $trash ]; then
     mkdir $trash
 fi
