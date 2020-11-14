@@ -13,11 +13,15 @@ if [ $# != 1 ]; then
 fi
 
 if [ ! -d $trash ]; then
-    mkdir $trash
+    exit 1
 fi
 
 if [ ! -f $trashlog ]; then
-    touch $trashlog
+    exit 1
+fi
+
+if [ -z $(grep $1 $trash) ]; then
+    exit 1
 fi
 
 grep $filename $trashlog |
