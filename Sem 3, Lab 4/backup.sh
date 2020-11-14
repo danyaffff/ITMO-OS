@@ -16,14 +16,14 @@ if [[ $time_difference < 7 ]] && [ ! -z $last_backup_date ]; then
     changes=""
     for file in $(ls ~/source); do
         if [ -f $last_backup/$file ]; then
-        size_in_source=$(wc -c ~/source/$file | awk '{print $1}')
+            size_in_source=$(wc -c ~/source/$file | awk '{print $1}')
             size_in_backup=$(wc -c $last_backup/$file | awk '{print $1}')
             size_difference=$(echo "$size_in_source - $size_in_backup" | bc)
 
             if [ $size_difference != 0 ]; then
-            mv $last_backup/$file $last_backup/$file.$current_date
-            cp ~/source/$file $last_backup
-            changes="$changes$file $file.$current_date"
+                mv $last_backup/$file $last_backup/$file.$current_date
+                cp ~/source/$file $last_backup
+                changes="$changes$file $file.$current_date"
             fi
         else
             cp ~/source/$file $last_backup
@@ -31,7 +31,7 @@ if [[ $time_difference < 7 ]] && [ ! -z $last_backup_date ]; then
         fi
     done
     changes=$(echo $changes | sed "s/^\n//")
-    if [[ ! -z $changes ]]; then
+    if [ ! -z $changes ]; then
         echo -e "Backup-$last_backup_date updated:\n$changes" >> $report
     fi
 else
