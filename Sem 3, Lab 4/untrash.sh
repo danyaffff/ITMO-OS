@@ -8,6 +8,18 @@ restore() {
     ln $trash/$file $path
 }
 
+if [ $# != 1 ]; then
+    exit 1
+fi
+
+if [ ! -d $trash ]; then
+    mkdir $trash
+fi
+
+if [ ! -f $trashlog ]; then
+    touch $trashlog
+fi
+
 grep $filename $trashlog |
 while read filepath; do
     file=$(echo $filepath | cut -d " " -f 1)
