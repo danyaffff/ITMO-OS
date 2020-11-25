@@ -36,4 +36,4 @@
 - [backup.sh](https://github.com/danyaffff/ITMO-OS/blob/master/Sem%203%2C%20Lab%204/backup.sh)
 - [upback.sh](https://github.com/danyaffff/ITMO-OS/blob/master/Sem%203%2C%20Lab%204/upback.sh)
 
-[Tasks](https://drive.google.com/drive/folders/1wgx3Y3Rx9KtK-Yoeun9vSh-GfVFlxUnW)
+[Tasks](https://github.com/danyaffff/ITMO-OS/tree/master/Tasks)
