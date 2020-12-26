@@ -1,0 +1,1 @@
+call %~dp03_1.bat services_1.txtsc stop dnscachetimeout /t 5call %~dp03_1.bat services_2.txtcall %~dp03_3.bat services_1.txt services_2.txtsc start dnscashe
