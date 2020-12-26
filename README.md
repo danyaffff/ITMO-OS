@@ -39,4 +39,10 @@
 5. Memory managment in Linux
 - [Files](https://github.com/danyaffff/ITMO-OS/tree/master/Sem%203%2C%20Lab%205)
 
+6. Command Line Interface Windows
+- [1](https://github.com/danyaffff/ITMO-OS/tree/master/Sem%203%2C%20Lab%206/1)
+- [2](https://github.com/danyaffff/ITMO-OS/tree/master/Sem%203%2C%20Lab%206/2)
+- [3](https://github.com/danyaffff/ITMO-OS/tree/master/Sem%203%2C%20Lab%206/3)
+- [4](https://github.com/danyaffff/ITMO-OS/tree/master/Sem%203%2C%20Lab%206/4)
+
 [Tasks](https://github.com/danyaffff/ITMO-OS/tree/master/Tasks)
