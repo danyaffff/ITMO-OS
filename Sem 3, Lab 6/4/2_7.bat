@@ -1,1 +1,0 @@
-copy *.bat commands.txt
