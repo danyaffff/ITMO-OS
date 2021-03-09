@@ -7,7 +7,8 @@ while read line ; do
     art=$(echo $line | cut -d ":" -f 3 | awk -F "=" '{print $2}')
 
     if [[ $previous_ppid != -1 && $ppid != $previous_ppid ]]; then
-	echo Average_Running_Children_of_ParentID=$previous_ppid is $(echo "scale=2; x=$total_art / $counter; if(x<1&&x!=0) print 0; x" | bc)
+	echo Average_Running_Children_of_ParentID=
+	$previous_ppid is $(echo "scale=2; x=$total_art / $counter; if(x<1&&x!=0) print 0; x" | bc)
         total_art=0
         counter=0
     fi
@@ -19,4 +20,5 @@ while read line ; do
     previous_ppid=$ppid
 done < out4.txt > out5.txt
 
-echo Average_Running_Children_of_ParentID=$previous_ppid is $(echo "scale=2; x=$total_art / $counter; if(x<1&&x!=0) print 0; x" | bc) >> out5.txt
+echo Average_Running_Children_of_ParentID=
+$previous_ppid is $(echo "scale=2; x=$total_art / $counter; if(x<1&&x!=0) print 0; x" | bc) >> out5.txt
